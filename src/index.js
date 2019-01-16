@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
-import Welcome from './compontents/home/Welcome';
+import WelcomeHello from './compontents/home/Welcome';
 import Goodbye from './compontents/home/goodbye'
 
 class App extends React.Component{
@@ -23,7 +23,7 @@ class App extends React.Component{
       render() {
         return (
             <div>
-              < Welcome />
+              < WelcomeHello />
               <Goodbye />
             </div>
         )

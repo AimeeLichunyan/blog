@@ -25,12 +25,16 @@
 // export default Goodbye;
 import React, {Component} from 'react';
 import myContainer from './wrapWithUsername';
-
+import Welcome from './welcome'
+// const WelComeYou = myContainer(Welcome)
 class Goodbye extends Component {
 
     render() {
         return (
-            <div>Goodbye {this.props.username}</div>
+            <div>
+            <div>Goodbye {this.props.username}</div>  
+            <Welcome username="胡巴2" />
+            </div>
         )
     }
 }
